@@ -1,0 +1,162 @@
+/* Media query 1 */
+
+@media screen and (min-width:1024px) {
+    
+    body {
+    width: 80%;
+    }
+
+    /* Navbar */
+
+    .logo img {
+        width: 150px;
+    }
+
+    .menu div img {
+        width: 40px;
+    }
+
+    /* Section packages */
+
+    #logo-packages>img{
+        margin: 55px 75px;
+    }
+
+    #text-packages {
+        padding-left: 50px;
+    }
+
+    #text-packages > .up{
+        font-size: 50px;
+        /* margin-bottom: 0;
+        margin-top: 20px; */
+        margin: 20px auto;
+    }
+    
+    #text-packages > .down{
+        font-size: 27px;
+        margin-top: 10px;
+    }
+
+    /* section eclosion, evolution et envol */
+
+    .title-eclosion > h1 {
+        margin: 20px auto;
+        font-size: 50px;
+        padding: 0px 0px;
+        width: 30%;
+    }
+
+    #eclosion img {
+        width: 80%;
+    }
+
+    #text-eclosion{
+        padding: 0 80px;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+    body {
+        width: 85%;
+    }
+
+    /* Navbar */
+
+    .logo img {
+        width: 130px;
+    }
+
+    .menu div {
+        font-size: 10px;
+    }
+
+    .menu div img {
+        width: 40px;
+    }
+
+    /* Section packages */
+
+    #logo-packages>img {
+        margin: 55px 55px;
+        width: 60%;
+    }
+
+    #text-packages {
+        padding-top: 10px;
+        padding-left: 55px;
+    }
+
+    #text-packages>.up {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    #text-packages>.down {
+        font-size: 27px;
+    }
+
+    /* section eclosion, evolution et envol */
+
+    .title-eclosion>h1{
+        margin: 35px auto 15px auto;
+        font-size: 40px;
+        padding: 5px 15px;
+    }
+
+    #eclosion {
+        width: 40%;
+        margin: 20px;
+        padding-top: 15px;
+    }
+
+    #eclosion>img {
+        width: 80%;
+        margin: 20px;
+    }
+
+    #text-eclosion {
+        padding: 20px 0 0 0;
+
+    }
+
+    /* section logo eclosion, evolution, envol */
+
+    .pad {
+        padding: 25px 40px;
+    }
+
+    .dispo-logo>div>img{
+        width: 50px;
+    }
+    
+    .dispo-logo>div>p {
+        margin-bottom: 0;
+    }
+
+    /* section logo evolution modif */
+
+
+    .dispo-logo-exception{
+        padding-top: 20px;
+    }
+
+    .dispo-logo-exception>div>img{
+        width: 50px;
+    }
+    
+    /* section footer */
+
+    .div-footer{
+        font-size: 15px;
+    }
+
+    .div-footer>div>img{
+        width: 40px;
+        margin: 5px;
+    }
+
+    
+}
